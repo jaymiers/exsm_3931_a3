@@ -1,8 +1,8 @@
 Hungry Customer:
 
-FUNCTION Obtain_Snack
-    Inspect machine contents for snack 
-    Deposit change amount for snack
+FUNCTION Obtain_Snack 
+    Choose snack
+    Pay for snack
     If customer desires chips
         Then enter code for chips
         Else, enter code for candy
@@ -14,8 +14,8 @@ FUNCTION Obtain_Snack
 Machine Owner:
 
 FUNCTION Restock_Machine
-    Unlock machine with key
-    Check snack stock
+    Unlock machine
     If snacks stock needs refilling
         Then restock snacks
         Else empty coin storage
+    Lock Machine
